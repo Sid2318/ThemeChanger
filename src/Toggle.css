@@ -1,0 +1,36 @@
+/* Default Light Mode */
+body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Mode */
+  body.dark {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Center the content */
+  .container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .toggle-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  body.light .toggle-btn {
+    background-color: black;
+    color: white;
+  }
+  
+  body.dark .toggle-btn {
+    background-color: white;
+    color: black;
+  }
+  
